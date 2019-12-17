@@ -37,7 +37,6 @@ async def on_ready():
 #		time.sleep(13)
 
 
-
-client.run('NjQ2NDExMzMwODA2NDgwOTEw.XdU5CQ.fuOSaVgGfEyR4o-V991fwE7byro')
+client.run('NjQ2NDE')
 
 
