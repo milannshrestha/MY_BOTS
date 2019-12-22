@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 import discord
 
-token =(' xxxxxxxxxxxxx TOKEN xxxxxxxxxxxxxxxxxxxxxxx')
+token =('xxxxxxxxxxxxxxxxxx TOKEN xxxxxxxxxxxxxxxxxxxxxxxx')
 bot = commands.Bot(command_prefix='?')
 
 @bot.event
@@ -23,8 +23,14 @@ async def hash(ctx, arg):
         print ('[*] Serevr User Enterd: {}'.format(arg))
         for j in put_list:
                 if arg == j:
-                        await ctx.send(":warning: Hash matched with Emotet!")
+                        embed = discord.Embed(title="I found Emotet", color=0xeee657)
+                        embed.add_field(name = "Lookup?", value = "https://www.virustotal.com/gui/file/{}/detection".format(arg))
+                        await ctx.send(embed = embed)
+                else:
+                        continue
 bot.run(token)
+
+
 
 
 
