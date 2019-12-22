@@ -19,3 +19,18 @@ for i in newlist:
 
 
 
+'''
+from time import sleep
+a= ['a','b','c','3']
+b = ['1','2','3']
+c = [a, b]
+x = [val for sublist in c for val in sublist]
+uniq = list(set(x))
+print (uniq)
+ask = input('enter: ')
+for i in x:
+        if ask == i:
+                print ('matched')
+        else:
+                pass
+'''
