@@ -9,3 +9,6 @@ Usage:
 API source: [LMAO Ninja](https://corona.lmao.ninja/)
 
 ![](pic1.png?raw=true)
+
+
+`#botsbeforethots`
