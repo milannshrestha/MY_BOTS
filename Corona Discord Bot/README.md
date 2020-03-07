@@ -7,3 +7,5 @@ Usage:
   3. For help => ?h
 
 API source: [LMAO Ninja](https://corona.lmao.ninja/)
+POC:
+![](pic1.png?raw=true)
